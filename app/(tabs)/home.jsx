@@ -4,12 +4,14 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 
 import {icons, images} from '../../constants'
 import SearchField from '../../custom-components/SearchField'
+import LatestVideos from '../../custom-components/LatestVideos'
+import EmptyVideoList from '../../custom-components/EmptyVideoList'
 
 const Home = () => {
   return (
     <SafeAreaView className="bg-primary h-full">
       <FlatList
-        data={[{id: 1}, {id: 2}, {id: 3}]}
+        data={[]}
         keyExtractor={(item) => item.id}
         renderItem={({item}) =>
           <Text className="text-white text-3xl">{item.id}</Text>
@@ -26,14 +28,17 @@ const Home = () => {
               </View>
             </View>
             <SearchField placeholder={"Search for a video topic"}/>
-            <View>
-              <Text className="font-pregular text-gray-100 mt-9">Trending Videos</Text>
+            <View className="pt-5">
+              <Text className="font-pregular text-gray-100">Trending Videos</Text>
+              {/* <LatestVideos posts={[{id: 1} , {id: 2}, {id: 3}]} /> */}
             </View>
           </View>
         )}
+        ListEmptyComponent={() => (
+          <EmptyVideoList/>
+        )}
       />
       <View>
-        <Text className="text-white">Home</Text>
       </View>
     </SafeAreaView>
   )
