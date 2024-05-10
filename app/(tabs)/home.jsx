@@ -25,7 +25,10 @@ const Home = () => {
                 <Image className="mt-1.5 h-10 w-9" resizeMode='contain' source={images.logoSmall}/>
               </View>
             </View>
-            {/* <SearchField placeholder={"Search for a video topic"}/> */}
+            <SearchField placeholder={"Search for a video topic"}/>
+            <View>
+              <Text className="font-pregular text-gray-100 mt-9">Trending Videos</Text>
+            </View>
           </View>
         )}
       />

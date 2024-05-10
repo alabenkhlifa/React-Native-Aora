@@ -5,7 +5,6 @@ import {icons} from '../constants'
 
 const SearchField = ({ value, placeholder, handleChangeText }) => {
   
-    const [showPassword, setShowPassword] = useState(false)
     return (
           <View className="w-full h-16 px-4 border-2 border-black-200 bg-black-100 rounded-2xl focus:border-secondary-100 items-center flex-row space-x-4 ">
             <TextInput 

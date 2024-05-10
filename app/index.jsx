@@ -33,8 +33,8 @@ export default function App() {
                     </Text>
                     <PrimaryButton
                         title="Continue with Email"
-                        // handlePress={() => {router.push("/sign-in")}}
-                        handlePress={() => {router.push("/home ")}}
+                        // handlePress={() => { router.push("/sign-in") }}
+                        handlePress={() => { router.push("/home") }}
                         containerStyles="w-full mt-7 mb-10"
                     />
                 </View>
