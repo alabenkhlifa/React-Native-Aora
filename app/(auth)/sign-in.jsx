@@ -17,15 +17,21 @@ const SignIn = () => {
   return (
     <SafeAreaView className="bg-primary h-full">
         <ScrollView contentContainerStyle={{flexGrow: 1}}>
-            <View className="w-full px-6 mt-10">
-                <Image source={images.logo} resizeMode='contain' className="w-[115] h-[35]"/>
+            <View className="w-full px-6 h-full justify-center">
+              <View className="flex-row justify-center">
+                <Image 
+                  source={images.logo} 
+                  className="w-[60px] h-[40px]" 
+                  resizeMode='contain' />
+                <Text className="text-white text-3xl font-psemibold pt-1">TIMELY</Text>
+              </View>
                 <Text className="text-2xl text-white mt-10 font-psemibold">
                   Sign in
                 </Text>
                 <FormField 
-                  title="Email"
+                  title="Email / Phone Number"
                   value={form.email} 
-                  placeholder="Enter your email address"
+                  placeholder="Enter your Email or Phone Number"
                   handleChangeText={(e) => setForm({...form , email: e})}
                   otherStyle="mt-7"
                   keyboardType="email-address"
@@ -42,7 +48,7 @@ const SignIn = () => {
                 </Text>
                 <PrimaryButton title="Log In" containerStyles={"mt-5"} handlePress={() => {router.push("/home")}}/>
                 <Text className="mt-[18px] text-center justify-center font-pregular text-sm text-gray-100">
-                  Don't have an account? <Link href="/sign-up"  className="text-secondary font-psemibold">SignUp</Link>
+                  If you don't have an account{"\n"}Please contact your <Text className="font-psemibold">Gym Administrator</Text>
                 </Text>
             </View>
         </ScrollView>
