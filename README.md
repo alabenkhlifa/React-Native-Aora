@@ -9,7 +9,10 @@ This app is aimed for Gym members that wants to stay in Sync with their Gym Trai
 
 # Screenshots
 
-<img src="readme_images/Onboarding%20Screen.png" width="300" height="700" title="hover text">
+<img src="docs/images/Onboarding%20Screen%20-%20IPhone%2011.PNG" width="300" height="700" title="Onboarding Screen IPhone 11">
+<img src="docs/images/Sign%20In%20Screen%20-%20IPhone%2011.PNG" width="300" height="700" title="Sign In Screen IPhone 11">
+<img src="docs/images/Onboarding%20Screen%20-%20IPhone%SE.PNG" width="300" height="700" title="Onboarding Screen IPhone SE">
+<img src="docs/images/Sign%20In%20Screen%20-%20IPhone%20SE.PNG" width="300" height="700" title="Sign In Screen IPhone SE">
 
 
 # Big Thanks to JavaScript Mastery
