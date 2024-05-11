@@ -9,11 +9,17 @@ This app is aimed for Gym members that wants to stay in Sync with their Gym Trai
 
 # Screenshots
 
-<img src="docs/images/Onboarding%20Screen%20-%20IPhone%2011.PNG" width="300" height="700" title="Onboarding Screen IPhone 11">
-<img src="docs/images/Sign%20In%20Screen%20-%20IPhone%2011.PNG" width="300" height="700" title="Sign In Screen IPhone 11">
-<img src="docs/images/Onboarding%20Screen%20-%20IPhone%SE.PNG" width="300" height="700" title="Onboarding Screen IPhone SE">
-<img src="docs/images/Sign%20In%20Screen%20-%20IPhone%20SE.PNG" width="300" height="700" title="Sign In Screen IPhone SE">
+## IPhone 11 (6.06 inches)
 
+Onboarding | Sign In |
+--- | --- |
+<img src="docs/images/Onboarding%20Screen%20-%20IPhone%2011.PNG" width="350" height="700" title="Onboarding Screen IPhone 11"> | <img src="docs/images/Sign%20In%20Screen%20-%20IPhone%2011.PNG" width="350" height="700" title="Sign In Screen IPhone 11"> |
+
+## IPhone SE / 8 (4.7 inches)
+
+Onboarding | Sign In |
+--- | --- |
+<img src="docs/images/Onboarding%20Screen%20-%20IPhone%20SE.PNG" width="350" height="700" title="Onboarding Screen IPhone SE"> | <img src="docs/images/Sign%20In%20Screen%20-%20IPhone%20SE.PNG" width="350" height="700" title="Sign In Screen IPhone SE"> |
 
 # Big Thanks to JavaScript Mastery
 
