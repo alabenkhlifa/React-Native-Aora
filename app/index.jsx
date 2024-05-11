@@ -10,31 +10,34 @@ export default function App() {
         <SafeAreaView className="bg-primary h-full flex-1">
             <ScrollView contentContainerStyle={{flexGrow: 1}}>
                 <View className="w-full items-center justify-center px-4 flex-1">
-                    <Image 
-                        source={images.logo} 
-                        className="w-[130px] h-[84px]" 
-                        resizeMode='contain' />
+                    <View className="flex-row pt-5">
+                        <Image 
+                            source={images.logo} 
+                            className="w-[60px] h-[40px]" 
+                            resizeMode='contain' />
+                        <Text className="text-white text-3xl font-psemibold pt-1">TIMELY</Text>
+                    </View>
                     <Image 
                         source={images.cards} 
-                        className="w-full max-w-[380px] h-[285]" 
+                        className="w-full max-w-[375px] h-[300px] mt-6" 
                         resizeMode='contain' />
-                    <View className="relative mt-5">
-                        <Text className="text-white text-3xl font-bold text-center">Discover Endless Possibilities with{' '}
-                            <Text className="text-secondary">Aora</Text>
+                    <View className="relative mt-3">
+                        <Text className="text-white text-3xl font-bold text-center">Workouts, When you {"\n"} want them with{' '}
+                            <Text className="text-secondary">Timely</Text>
                         </Text>
                         <Image
-                            source={images.path} 
-                            className="absolute w-[136px] h-[13px] -bottom-2 -right-8"
+                            source={images.line} 
+                            className="absolute w-[90px] h-[13px] -bottom-2 right-1"
                             resizeMode='contain'
                         />
                     </View>
                     <Text className="mt-5 text-center font-pregular text-sm text-gray-100">
-                        Where Creativity Meets Innovation: Embark on a Journey of Limitless Exploration with Aora
+                        Optimize Your Fitness Routine{"\n"}Stay In Sync with Timely's Gym Schedule
                     </Text>
                     <PrimaryButton
-                        title="Continue with Email"
+                        title="Get Started"
                         // handlePress={() => { router.push("/sign-in") }}
-                        handlePress={() => { router.push("/home") }}
+                        handlePress={() => { router.push("/sign-in") }}
                         containerStyles="w-full mt-7 mb-10"
                     />
                 </View>

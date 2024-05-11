@@ -16,7 +16,7 @@ const TabIcon = ({icon, color, name, focused}) => {
 const TabsLayout = () => {
   return (
     <>
-        <Tabs screenOptions={{tabBarShowLabel: false, tabBarActiveTintColor: '#FF9C01', tabBarInactiveTintColor: '#CDCDE0', tabBarStyle: {
+        <Tabs screenOptions={{tabBarShowLabel: false, tabBarActiveTintColor: '#E8F288', tabBarInactiveTintColor: '#CDCDE0', tabBarStyle: {
             backgroundColor: '#161622', borderTopWidth: 1, borderTopColor: '#232533', height: 84
         }}} detachInactiveScreens={false}> 
             <Tabs.Screen 
