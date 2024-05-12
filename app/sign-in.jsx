@@ -2,9 +2,9 @@ import { View, Text, Image, TouchableOpacity } from 'react-native'
 import React, { useState } from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { ScrollView } from 'react-native'
-import { images } from '../../constants'
-import FormField from '../../custom-components/FormField'
-import PrimaryButton from '../../custom-components/PrimaryButton'
+import { images } from '../constants'
+import FormField from '../custom-components/FormField'
+import PrimaryButton from '../custom-components/PrimaryButton'
 import { Link, router } from 'expo-router'
 
 const SignIn = () => {
