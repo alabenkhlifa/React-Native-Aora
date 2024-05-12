@@ -7,9 +7,8 @@ const EmptyVideoList = () => {
   return (
     <View className="items-center px-9">
         <Image source={images.empty} className="w-[270px] h-[220px]" resizeMode='contain'/>
-        <Text className="text-white text-xl font-psemibold">No Videos Found</Text>   
-        <Text className="text-gray-100 text-sm font-pregular mt-1">Be the first one to upload a Video</Text> 
-        <PrimaryButton title="Create Video" containerStyles={"w-full mt-6"}/>  
+        <Text className="text-white text-xl text-center font-psemibold">No upcoming trainings</Text>   
+        <Text className="text-gray-100 text-center text-sm font-pregular mt-1">You'll see upcoming trainings once your Gym Administrator adds some.</Text> 
     </View>
   )
 }
