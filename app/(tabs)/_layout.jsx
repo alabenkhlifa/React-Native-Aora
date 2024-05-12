@@ -3,6 +3,7 @@ import React from 'react'
 import { Tabs, Redirect } from 'expo-router'
 
 import icons from '../../constants/icons'
+import { StatusBar } from 'expo-status-bar'
 
 const TabIcon = ({icon, color, name, focused}) => {
     return (
@@ -57,18 +58,19 @@ const TabsLayout = () => {
                         focused={focused}/>
             }}/>
             <Tabs.Screen
-            name="profile"
+            name="account"
             options={{
-                title: "Profile",
+                title: "Account",
                 headerShown: false,
                 tabBarIcon: ({color, focused}) => 
                     <TabIcon 
                         icon={icons.profile} 
-                        name="Profile"
+                        name="Account"
                         color={color}
                         focused={focused}/>
             }}/>
         </Tabs>
+        <StatusBar backgroundColor='#161622' style='light'/>
     </>
   )
 }
