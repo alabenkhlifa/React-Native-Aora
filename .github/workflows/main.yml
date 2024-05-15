@@ -6,6 +6,9 @@ on:
       - main
       - Release/*
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Release
