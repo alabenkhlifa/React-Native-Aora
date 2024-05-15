@@ -1,0 +1,15 @@
+name: Build and Release Android App to Artifact Section
+
+on: 
+  push:
+    branches:
+      - main
+      - Release/*
+
+jobs:
+  build:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: React Native Android Build APK
+        uses: realabbas/Github-Actions-React-Native@v1.1.2
